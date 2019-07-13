@@ -1,3 +1,5 @@
-<template src="./index.html"></template>
+<template>
+  <item-mobile />
+</template>
 
 <script lang="ts" src="./index.ts"></script>
