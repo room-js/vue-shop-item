@@ -15,7 +15,13 @@ export default [
       resolve(),
       commonjs(),
       vue(),
-      typescript(),
+      typescript({
+        tsconfig: resolvedConfig => ({
+          ...resolvedConfig,
+          declaration: true,
+          allowJs: false,
+        }),
+      }),
     ]
   }
 ];

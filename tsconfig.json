@@ -3,11 +3,12 @@
     "baseUrl": "./src",
     "outDir": "./lib",
     "sourceMap": false,
-    "declaration": true,
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "module": "es2015",
+    "allowJs": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
@@ -28,5 +29,5 @@
   ],
   "files": [
     "vue.shims.d.ts"
-  ],
+  ]
 }
