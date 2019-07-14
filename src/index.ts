@@ -1,15 +1,24 @@
 import { Vue, Component, Prop } from 'vue-property-decorator';
-import ItemMobile from './components/ItemMobile/index.vue';
+import SliderMobile from './components/SliderMobile/index.vue';
+import SliderDesktop from './components/SliderDesktop/index.vue';
+import { Item } from './types';
 
 @Component({
   components: {
-    ItemMobile,
+    SliderMobile,
+    SliderDesktop
   },
 })
 class VueShopItem extends Vue {
-  @Prop() readonly text!: string;
-  // @Prop({ default: 'default value' }) readonly propB!: string
-  // @Prop([String, Boolean]) readonly propC: string | boolean | undefined
+  @Prop() readonly items!: Item[];
+  @Prop({ default: true }) readonly showArrows!: boolean;
+  @Prop({ default: true }) readonly showPreview!: boolean;
+  @Prop({ default: 'left' }) readonly previewPosition!: string;
+
+  isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
+      .test(navigator.userAgent);
+  }
 }
 
 export default VueShopItem;

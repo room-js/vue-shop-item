@@ -1,0 +1,28 @@
+<div class="container">
+  <div
+    class="slider"
+    ref="slider"
+  >
+    <div
+      class="slide"
+      v-for="item in items"
+    >
+      <img
+        :src="item.imageUrl"
+        class="slide-image"
+      />
+    </div>
+  </div>
+  <div
+    :class="['preview-container', previewPosition]"
+    v-if="showPreview"
+  >
+    <div
+      :class="['preview', index === activeIndex ? 'active' : '']"
+      v-for="(item, index) in items"
+      v-on:click="slideTo(index)"
+    >
+      <img :src="item.imageUrl" class="preview-image" />
+    </div>
+  </div>
+</div>

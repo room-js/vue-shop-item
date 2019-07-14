@@ -34,8 +34,11 @@
     "@storybook/addon-actions": "5.1.9",
     "@storybook/addon-info": "5.1.9",
     "@storybook/addon-knobs": "5.1.9",
+    "@storybook/addon-viewport": "5.1.9",
     "@storybook/vue": "5.1.9",
     "@types/jest": "24.0.15",
+    "@types/storybook__addon-knobs": "5.0.2",
+    "@types/storybook__addon-viewport": "4.1.1",
     "@types/storybook__vue": "5.0.2",
     "@typescript-eslint/parser": "1.11.0",
     "@vue/test-utils": "1.0.0-beta.29",
@@ -72,6 +75,7 @@
     "vue": "^2.0.0"
   },
   "dependencies": {
+    "ts-debounce": "1.0.0",
     "vue-class-component": "^7.0.0",
     "vue-property-decorator": "^8.0.0"
   }

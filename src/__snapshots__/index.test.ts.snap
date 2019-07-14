@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders desktop slider correctly 1`] = `
+<div class="container">
+  <div class="slider">
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X49Y57D162268273FS2623/views/1,width=650,height=650,appearanceId=1.png" class="slide-image"></div>
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A2PA3811PT17X63Y78D160344535FS2341/views/1,width=650,height=650,appearanceId=2/watch-me.png" class="slide-image"></div>
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X58Y109D160251068FS2435/views/1,width=650,height=650,appearanceId=1/security-is-important.png" class="slide-image"></div>
+  </div>
+  <div class="preview-container left">
+    <div class="preview active"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X49Y57D162268273FS2623/views/1,width=650,height=650,appearanceId=1.png" class="preview-image"></div>
+    <div class="preview"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A2PA3811PT17X63Y78D160344535FS2341/views/1,width=650,height=650,appearanceId=2/watch-me.png" class="preview-image"></div>
+    <div class="preview"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X58Y109D160251068FS2435/views/1,width=650,height=650,appearanceId=1/security-is-important.png" class="preview-image"></div>
+  </div>
+</div>
+`;
+
+exports[`renders mobile slider correctly 1`] = `
+<div class="container">
+  <div class="slider">
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X49Y57D162268273FS2623/views/1,width=650,height=650,appearanceId=1.png" class="slide-image"></div>
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A2PA3811PT17X63Y78D160344535FS2341/views/1,width=650,height=650,appearanceId=2/watch-me.png" class="slide-image"></div>
+    <div class="slide"><img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A1PA3811PT17X58Y109D160251068FS2435/views/1,width=650,height=650,appearanceId=1/security-is-important.png" class="slide-image"></div>
+  </div> <span class="arrow left">
+    &lt;
+  </span> <span class="arrow right">
+    &gt;
+  </span>
+</div>
+`;
