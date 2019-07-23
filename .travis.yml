@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "10"
+
+env:
+  GIT_AUTHOR_NAME: 'JS Room Bot'
+  GIT_AUTHOR_EMAIL: 'bot@roomjs.com'
+  GIT_COMMITTER_NAME: 'JS Room Bot'
+  GIT_COMMITTER_EMAIL: 'bot@roomjs.com'
+
+branches:
+  only:
+  - master
+
+script:
+  - npm run lint
+  - npm run test
+  - npm run dist
+  - npm run release

@@ -1,1 +1,10 @@
 src
+.vscode
+.storybook
+.travis.yml
+jest.config.js
+rollup.config.js
+tsconfig.json
+.eslintrc
+.babelrc
+node_modules

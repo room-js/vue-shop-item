@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "simple-commit-message",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/changelog"
+  ]
+}

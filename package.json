@@ -9,7 +9,8 @@
     "dist": "npm run clear:lib && rollup -c",
     "storybook": "start-storybook",
     "test": "jest",
-    "lint": "eslint --ext .js,.ts ./src"
+    "lint": "eslint --ext .js,.ts ./src",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   "homepage": "https://github.com/room-js/vue-shop-item#readme",
   "devDependencies": {
     "@babel/core": "7.5.4",
+    "@semantic-release/changelog": "3.0.4",
     "@storybook/addon-actions": "5.1.9",
     "@storybook/addon-info": "5.1.9",
     "@storybook/addon-knobs": "5.1.9",
@@ -64,6 +66,8 @@
     "rollup-plugin-sass": "1.2.2",
     "rollup-plugin-vue": "5.0.1",
     "sass-loader": "7.1.0",
+    "semantic-release": "15.13.18",
+    "simple-commit-message": "4.0.3",
     "ts-jest": "24.0.2",
     "typescript": "3.5.2",
     "vue": "2.6.10",
@@ -78,5 +82,8 @@
     "ts-debounce": "1.0.0",
     "vue-class-component": "^7.0.0",
     "vue-property-decorator": "^8.0.0"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
   }
 }

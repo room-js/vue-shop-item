@@ -13,20 +13,20 @@ class SliderMobile extends Vue {
     }
     
     switch (direction) {
-      case 'right':
-        (slider as Element).scroll({
-          left: slider.scrollLeft + slider.clientWidth,
-          behavior: 'smooth',
-        });
-        break;
-      case 'left':
-        (slider as Element).scroll({
-          left: slider.scrollLeft - slider.clientWidth,
-          behavior: 'smooth',
-        });
-        break;
-      default:
-        break;
+    case 'right':
+      (slider as Element).scroll({
+        left: slider.scrollLeft + slider.clientWidth,
+        behavior: 'smooth',
+      });
+      break;
+    case 'left':
+      (slider as Element).scroll({
+        left: slider.scrollLeft - slider.clientWidth,
+        behavior: 'smooth',
+      });
+      break;
+    default:
+      break;
     }
   }
 }

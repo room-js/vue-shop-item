@@ -41,7 +41,7 @@ class SliderDesktop extends Vue {
       top: index * slider.clientHeight,
       left: 0,
       behavior: 'smooth',
-    })
+    });
   }
 
   created() {
