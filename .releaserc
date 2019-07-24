@@ -6,11 +6,6 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    "@semantic-release/git"
-  ],
-  "prepare": [
-    "@semantic-release/changelog",
-    "@semantic-release/npm",
     [
       "@semantic-release/git",
       {
@@ -18,9 +13,5 @@
         "message": "Release: ${nextRelease.version}"
       }  
     ]
-  ],
-  "publish": [
-    "@semantic-release/npm",
-    "@semantic-release/github"
   ]
 }
