@@ -1,6 +1,6 @@
 {
   "name": "@roomjs/vue-shop-item",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue.js item preview component for E-Commerce websites and online stores.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -82,8 +82,5 @@
     "ts-debounce": "1.0.0",
     "vue-class-component": "^7.0.0",
     "vue-property-decorator": "^8.0.0"
-  },
-  "release": {
-    "analyzeCommits": "simple-commit-message"
   }
 }

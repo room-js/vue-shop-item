@@ -1,4 +1,5 @@
 {
+  "analyzeCommits": "simple-commit-message",
   "plugins": [
     "simple-commit-message",
     "@semantic-release/release-notes-generator",
