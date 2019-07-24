@@ -2,20 +2,22 @@
   "analyzeCommits": "simple-commit-message",
   "plugins": [
     "simple-commit-message",
+    "@semantic-release/github",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    "@semantic-release/git",
-    "@semantic-release/github"
+    "@semantic-release/git"
   ],
   "prepare": [
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    {
-      "path": "@semantic-release/git",
-      "assets": [ "package.json", "package-lock.json", "CHANGELOG.md" ],
-      "message": "Release: ${nextRelease.version}"
-    }
+    [
+      "@semantic-release/git",
+      {
+        "assets": [ "package.json", "package-lock.json", "CHANGELOG.md" ],
+        "message": "Release: ${nextRelease.version}"
+      }  
+    ]
   ],
   "publish": [
     "@semantic-release/npm",
