@@ -6,12 +6,6 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    [
-      "@semantic-release/git",
-      {
-        "assets": [ "package.json", "package-lock.json", "CHANGELOG.md" ],
-        "message": "Release: ${nextRelease.version}"
-      }  
-    ]
+    "@semantic-release/git"
   ]
 }
