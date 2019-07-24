@@ -1,6 +1,6 @@
 {
   "name": "@roomjs/vue-shop-item",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Vue.js item preview component for E-Commerce websites and online stores.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,6 +33,7 @@
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@semantic-release/changelog": "3.0.4",
+    "@semantic-release/git": "7.0.16",
     "@storybook/addon-actions": "5.1.9",
     "@storybook/addon-info": "5.1.9",
     "@storybook/addon-knobs": "5.1.9",
