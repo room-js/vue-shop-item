@@ -1,3 +1,10 @@
+## [0.0.14](https://github.com/room-js/vue-shop-item/compare/v0.0.13...v0.0.14) (2019-07-28)
+
+
+### Bug Fixes
+
+* check global var ([ad10033](https://github.com/room-js/vue-shop-item/commit/ad10033))
+
 ## [0.0.13](https://github.com/room-js/vue-shop-item/compare/v0.0.12...v0.0.13) (2019-07-24)
 
 
