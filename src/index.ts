@@ -15,9 +15,12 @@ class VueShopItem extends Vue {
   @Prop({ default: true }) readonly showPreview!: boolean;
   @Prop({ default: 'left' }) readonly previewPosition!: string;
 
-  isMobile() {
+  isMobile(): boolean | undefined {
+    if (!window) {
+      return;
+    }
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
-      .test(navigator.userAgent);
+      .test(window.navigator.userAgent);
   }
 }
 
