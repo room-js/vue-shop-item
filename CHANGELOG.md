@@ -1,3 +1,10 @@
+## [0.0.16](https://github.com/room-js/vue-shop-item/compare/v0.0.15...v0.0.16) (2019-07-29)
+
+
+### Bug Fixes
+
+* added node typings ([6bcfbcf](https://github.com/room-js/vue-shop-item/commit/6bcfbcf))
+
 ## [0.0.15](https://github.com/room-js/vue-shop-item/compare/v0.0.14...v0.0.15) (2019-07-29)
 
 
