@@ -1,3 +1,10 @@
+## [0.0.15](https://github.com/room-js/vue-shop-item/compare/v0.0.14...v0.0.15) (2019-07-29)
+
+
+### Bug Fixes
+
+* update tsconfig ([5808aad](https://github.com/room-js/vue-shop-item/commit/5808aad))
+
 ## [0.0.14](https://github.com/room-js/vue-shop-item/compare/v0.0.13...v0.0.14) (2019-07-28)
 
 
