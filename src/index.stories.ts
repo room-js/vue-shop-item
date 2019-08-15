@@ -4,22 +4,18 @@ import VueShopItem from './index.vue';
 import { Item } from './types';
 import items from './mocks/items';
 
-const itemsObj = items.reduce((acc, item, i) => ({ ...acc, [i]: item }), {});
+const itemsObj = items.reduce((acc, item, i) => ({ ...acc, [i]: i }), {});
 
 storiesOf('VueShopItem', module)
   .add('Default', () => {
-    const itemsOptions = optionsKnob('Items', itemsObj, items, { display: 'multi-select' });
+    const itemsOptions = optionsKnob(
+      'Items',
+      itemsObj,
+      items.map((item, i) => i),
+      { display: 'multi-select' }
+    );
 
-    // const getOptions = (): Item[] => {
-    //   console.log(itemsOptions);
-    //   return itemsOptions;
-    //   // return itemsOptions.map((o) => ({ imageUrl: o.imageUrl }));
-    // }
-
-    // console.log(getOptions());
-
-    console.log(itemsOptions);
-    
+    const getOptions = (): Item[] => itemsOptions.map((i) => ({ imageUrl: items[i].imageUrl }));
 
     const template = `
       <div style="width: calc(100vw - 20px); height: calc(100vh - 20px);">
@@ -32,7 +28,7 @@ storiesOf('VueShopItem', module)
       props: {
         items: {
           type: Array,
-          default: () => itemsOptions
+          default: getOptions
         },
         showArrows: {
           type: Boolean,
