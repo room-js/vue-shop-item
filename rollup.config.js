@@ -10,8 +10,16 @@ export default [
     output: {
       name: 'VueShopItem',
       dir: 'lib',
-      format: 'umd'
+      format: 'umd',
+      globals: {
+        'vue': 'Vue',
+        'vue-property-decorator': 'vuePropertyDecorator',
+      },
     },
+    external: [
+      'vue-property-decorator',
+      'vue',
+    ],
     plugins: [
       resolve(),
       commonjs(),
@@ -27,6 +35,6 @@ export default [
         output: true,
         failOnError: true,
       }),
-    ]
+    ],
   }
 ];
