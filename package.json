@@ -1,6 +1,6 @@
 {
   "name": "@roomjs/vue-shop-item",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Vue.js item preview component for E-Commerce websites and online stores.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

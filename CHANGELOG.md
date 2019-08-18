@@ -1,3 +1,10 @@
+## [0.0.17](https://github.com/room-js/vue-shop-item/compare/v0.0.16...v0.0.17) (2019-08-18)
+
+
+### Bug Fixes
+
+* Added Vue to rollup globals ([c7997aa](https://github.com/room-js/vue-shop-item/commit/c7997aa))
+
 ## [0.0.16](https://github.com/room-js/vue-shop-item/compare/v0.0.15...v0.0.16) (2019-07-29)
 
 
