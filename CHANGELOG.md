@@ -1,3 +1,10 @@
+## [0.0.18](https://github.com/room-js/vue-shop-item/compare/v0.0.17...v0.0.18) (2019-09-22)
+
+
+### Bug Fixes
+
+* Merge pull request [#2](https://github.com/room-js/vue-shop-item/issues/2) from room-js/responsive-items ([11f6ba8](https://github.com/room-js/vue-shop-item/commit/11f6ba8))
+
 ## [0.0.17](https://github.com/room-js/vue-shop-item/compare/v0.0.16...v0.0.17) (2019-08-18)
 
 
