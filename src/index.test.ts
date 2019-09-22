@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import VueShopItem from './index.vue';
-import items from './mocks/items';
+import { items } from './mocks/items';
 
 test('renders desktop slider correctly', () => {
   const wrapper = mount(VueShopItem, {

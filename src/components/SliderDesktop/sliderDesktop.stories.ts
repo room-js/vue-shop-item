@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 import { boolean, select } from '@storybook/addon-knobs';
 import SliderDesktop from './index.vue';
-import items from '../../mocks/items';
+import { items } from '../../mocks/items';
 
 storiesOf('SliderDesktop', module)
   .add('Default', () => {
