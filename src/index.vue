@@ -1,12 +1,12 @@
 <template>
   <slider-mobile
-    :items="items"
+    :items="itemsMobile"
     :showArrows="showArrows"
     v-if="isMobile()"
   />
   <slider-desktop
     v-else
-    :items="items"
+    :items="itemsDesktop"
     :showPreview="showPreview"
     :previewPosition="previewPosition"
   />

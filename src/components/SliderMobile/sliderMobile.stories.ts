@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 import { boolean } from '@storybook/addon-knobs';
 import SliderMobile from './index.vue';
-import items from '../../mocks/items';
+import { items } from '../../mocks/items';
 
 storiesOf('SliderMobile', module)
   .addParameters({
