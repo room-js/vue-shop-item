@@ -69,7 +69,7 @@
     "rollup-plugin-sass": "1.2.2",
     "rollup-plugin-vue": "5.0.1",
     "sass-loader": "7.1.0",
-    "semantic-release": "15.13.19",
+    "semantic-release": "17.2.3",
     "simple-commit-message": "4.0.13",
     "ts-jest": "24.0.2",
     "typescript": "3.5.2",
